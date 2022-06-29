@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="style.css">
+	<link rel="shortcut icon" href="icon.jpeg">
+	<title>"крупнокалиберный переполох"|магазин страйкбольных боеприпасов и амуниции</title>
+	<meta charset = "utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body bgcolor="#666633">
+	
+<div class="dropdown">
+<button onclick="myFunction()" class="dropbtn">меню</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="catalog.html">каталог</a>
+    <a href="contact.html">контакты</a>
+    <a href="how.html">как купить товар?</a>
+    <a href="faq.html">ЧАВО</a>
+    <a href="vk">группа в ВК</a>
+    <a href="news.html">новости</a>
+    <a href="sell.html">продать</a>
+  </div>
+</div>
+
+<div class="navbar">
+  <a href="index.html">главная</a>
+  <a href="catalog.html">каталог</a>
+  <a href="how.html">как купить товар?</a>
+  <a href="news.html">новости</a>  
+</div>
+
+
+<script>
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+<br> 
+<h1 align="center"> <font color="white">крупнокалиберный переполох</font></h1>
+<p align="center";>
+	<font size="4", color="white">
+	этот магазин для купли\продажи страйкбольной амуниции, боеприпасов и спецодежды. <br>
+	этот сайт является онлайн-каталогом, где вы можете выбрать товар. <br>
+	Здесь вы можете купить такие товары как страйкбольные гранаты, <br> 
+	патроны для пневматического писталета <br>
+	и даже <a href="catalog.html"><font color="white"> снять тётю Мотю </font> </a> <br>
+	Чтобы произвести покупку или получить товар вам нужно лично связаться с продавцом. <br> 
+	подробрее смотрите <a href="how.html"><font color="white"> здесь </font> </a>
+	</font>
+</p>
+<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+<hr width="750">
+<p>
+	<a href="how.html"><font color="white"> <p align="center">как купить товар? </p></font> </a>
+	<a href="contact.html"><font color="white"> <p align="center">свяжитесь с нами </p></font> </a>  
+	<a href="VK.html"><font color="white"><p align="center">группа в ВК </p></font></a>  
+	<a href="catalog.html"><font color="white"> <p align="center">каталог </p> </font></a>
+	<a href="sell.html"><font color="white"> <p align="center">продать </p> </font></a>
+
+</p>
+</body>
+</html>
+

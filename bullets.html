@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="style.css">
+	<link rel="shortcut icon" href="icon.jpeg">
+	<title>"патроны-шарики для пневмата"|магазин страйкбольных боеприпасов и амуниции</title>
+	<meta charset = "utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body bgcolor="#666633">
+	
+<div class="dropdown">
+<button onclick="myFunction()" class="dropbtn">меню</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="index.html">главная</a>
+    <a href="#contact">контакты</a>
+    <a href="#how">как купить товар?</a>
+    <a href="#faq">ЧАВО</a>
+    <a href="#vk">группа в ВК</a>
+  </div>
+</div>
+
+<div class="navbar">
+  <a href="index.html">главная</a>
+  <a href="catalog.html">каталог</a>
+  <a href="how.html">как купить товар?</a>
+  <a href="news.html">новости</a>  
+</div>
+
+<script>
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+<br>
+<h1 align="center"> <font color="white">подробности о товаре</font></h1> 
+<p align="center"> <img src="bullets.jpeg"; width="500"></p><br>
+<h2 align="center"> <font color="white">***₽ пачка\ ***₽ от * упаковок и более</font></h1> 
+
+<p align="center";>
+	<font size="4", color="white">
+	Патроны-шарики для пневматического пистолета **мм медные.<br>
+	<a href="catalog.html"><font color="white"><p align="center">обратно к каталогу</p></font> </a>
+	<br>
+	</font>
+</p>
+<br>
+<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+<hr width="750">
+<p>
+	<a href="contact.html"><font color="white"> <p align="center">свяжитесь с нами </p></font> </a>  <a href="VK.html"><font color="white"><p align="center">группа в ВК </p></font></a>  <a href="index.html"><font color="white"> <p align="center">главная</p> </font></a> <br><br>
+<br><br>
+</p>
+</body>
+</html>
+
